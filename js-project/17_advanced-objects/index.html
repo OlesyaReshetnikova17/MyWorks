@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цепочка наследования стандартных классов в JavaScript</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script defer type="module" src="./script.js"></script>
+</head>
+<body>
+  <div class="container mt-5 p-5 text-dark bg-opacity-10">
+    <h1 class="text-center font-monospace">Цепочка прототипов</h1>
+   </div>
+    <form class="form mx-auto">
+      <div class="align-items-center mx-auto mb-5">
+        <input type="text" class="text-center w-50 form-control class-name mx-auto p-3 " placeholder="Напишите название класса или модуля (с учетом регистра)" required>
+        <div class="invalid-feedback"></div>
+      </div>
+      <div class="d-grid gap-2 col-3 mx-auto">
+        <button type="submit" class="btn btn-outline-primary shadow p-3 mb-5 bg-body-tertiary rounded">Показать цепочку прототипов</button>
+      </div>
+
+    </form>
+    <ol class="mt-5 prototype-chain"></ol>
+</body>
+</html>

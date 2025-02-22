@@ -1,0 +1,129 @@
+html{
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  font-family: 'OpenSans', sans-serif;
+  font-style: normal;
+}
+@font-face {
+  font-family:'OpenSans';
+   src:url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  line-height: 30px;
+}
+@font-face {
+  font-family: "OpenSans";
+   src:url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('../fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  line-height: 30px;
+}
+.container{
+  max-width: 1440px;
+}
+.flex{
+  display: flex;
+}
+
+.hero{
+  margin-bottom: 25px;
+  background-color:  #fff6ed;
+}
+.hero__title{
+  margin: 0;
+  margin-bottom: 41px;
+  padding: 0;
+  text-align: center;
+  font-size: 38px;
+}
+.card__title-start{
+  margin: 0;
+  margin-right: 7px;
+  padding: 0;
+  font-family: "OpenSans";
+  font-weight: 700;
+  color: black;
+  font-size: 29px;
+}
+.card__title-end{
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans";
+  font-weight: 700;
+  color:#ff7a00;
+  font-size: 29px;
+}
+.card-list{
+  margin: 0;
+  padding: 0;
+  gap: 100px;
+  list-style-type: none;
+}
+.hero__container{
+  margin: 0 auto;
+  padding: 67px 57px 40px 57px;
+}
+.svg-coffe{
+  margin-bottom: 25px;
+}
+.svg-meditation{
+  margin-bottom: 25px;
+}
+.svg-run{
+  margin-bottom: 25px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.card__text{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.info{
+  background-image: url(../img/Frame\ 1.png);
+  background-position-x: 720px;
+  background-repeat: no-repeat;
+}
+.info-container{
+  padding: 36px 57px;
+}
+.info-block{
+  gap: 80px;
+  justify-content: space-between;
+}
+.info-block__text{
+  max-width: 693px;
+}
+.info-block__title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 54.47px;
+}
+.info-block__wrapper{
+  max-width: 592px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+}
+.info-block-massagers{
+  max-width: 551px;
+}
+.svg-list {
+  padding-top: 30px;
+  row-gap: 29px;
+  column-gap: 90px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
